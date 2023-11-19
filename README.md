@@ -14,7 +14,7 @@ Hardware modifications in this design will void your devices' warranty. The code
 # Simulation
 
 ### Generate mmWave CSI trace using Wireless Insite
-* Wireless Insite version tested: v3.3.3
+* Wireless Insite version tested: v3.4.4.14
 * A valid Wireless Insite license (with X3D feature) is required. Please contact [Remcom](https://www.remcom.com/wireless-insite-em-propagation-software) for details.
 
 # Testbed 
