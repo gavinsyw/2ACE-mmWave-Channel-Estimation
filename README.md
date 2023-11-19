@@ -124,7 +124,7 @@ Hardware modifications in this design will void your devices' warranty. The code
 Yiwen Song, Changhan Ge, Lili Qiu, Yin Zhang. 2023. 2ACE: Spectral Profile-driven Multi-resolutional Compressive Sensing for mmWave Channel Estimation. In International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (MobiHoc ’23), October 23–26, 2023, Washington, DC, USA. ACM, New York, NY, USA, 10 pages. https://doi.org/10.1145/3565287.3610252
 
 # Acknowledgement
-This work is supported in part by NSF Grant CNS-2008824 and CNS-2107037. We appreciate the insightful feedback from ACM MobiHoc 2023 anonymous reviewers.
+This work is supported in part by NSF Grant [CNS-2008824](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2008824&HistoricalAwards=false) and [CNS-2107037](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2107037&HistoricalAwards=false). We appreciate the insightful feedback from ACM MobiHoc 2023 anonymous reviewers.
 
 # Contact
 If you have any question regarding 2ACE, please contact Yiwen Song at yiwensong@cmu.edu.
