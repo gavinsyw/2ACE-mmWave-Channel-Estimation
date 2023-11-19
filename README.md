@@ -75,7 +75,7 @@ Hardware modifications in this design will void your devices' warranty. The code
 
 #### Run with your own codebook
 * This requires the codebook module ```wil6210_brd_mod``` mentioned above.
-* After you get this module, play with the code inside ```./codebook/```
+* After you get this module, play with the code inside ```./codebook/```.
 
 # Q&A
 * Why does it take too long to run the code? Why does solving the CSI matrix seem to take forever?
