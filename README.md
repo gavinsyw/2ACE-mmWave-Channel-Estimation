@@ -106,7 +106,6 @@ Hardware modifications in this design will void your devices' warranty. The code
 #### Bibtex
   ```
   @inproceedings{10.1145/3565287.3610252,
-  bibtex_show={true},
   author = {Song, Yiwen and Ge, Changhan and Qiu, Lili and Zhang, Yin},
   title = {2ACE: Spectral Profile-driven Multi-resolutional Compressive Sensing for mmWave Channel Estimation},
   year = {2023},
