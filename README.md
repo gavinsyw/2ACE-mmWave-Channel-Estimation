@@ -28,7 +28,7 @@ Hardware modifications in this design will void your devices' warranty. The code
 
 ### Dependencies
 * OS tested: Ubuntu 16.04/18.04/20.04 (Ubuntu 20.04 will need to install python2 to support the legacy features).
-* OpenSSH server/client and sshpass required on both machines.
+* ```OpenSSH``` server/client and ```sshpass``` required on both machines.
 * Python 3.8+ environment required, need to install numpy and scipy packages.
 * Software required: Matlab (tested with 2021a, 2021b, and 2022a)
   + A valid matlab license is required.
