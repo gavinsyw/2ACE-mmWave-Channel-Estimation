@@ -27,7 +27,7 @@ Hardware modifications in this design will void your devices' warranty. The code
   + 2ACE should be able to work with any phased array, including NGFF595A-L-Ant, since it does not consider any antenna structure. However, basedline approaches [PLOMP/PLGMP](https://github.com/yzhang417/SANBA-mmWave-SDR)/azimuth sweeping/azimuth+elevation sweeping may not work with NGFF595A-L-Ant since they require antenna array structure information to construct directional beams.
 
 ### Dependencies
-* OS tested: Ubuntu 16.04/18.04/20.04 (Ubuntu 20.04 will need to install python2 to support the legacy feature)
+* OS tested: Ubuntu 16.04/18.04/20.04 (Ubuntu 20.04 will need to install python2 to support the legacy features).
 * OpenSSH server/client and sshpass required on both machines.
 * Python 3.8+ environment required, need to install numpy and scipy packages.
 * Software required: Matlab (tested with 2021a, 2021b, and 2022a)
