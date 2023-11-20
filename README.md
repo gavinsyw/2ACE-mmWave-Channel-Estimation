@@ -20,7 +20,7 @@ Hardware modifications in this design will void your devices' warranty. The code
 # Testbed 
 ### Equipments
 * Devices: Two Acer TravelMate P658-m serving as AP (TX) and STA (RX).
-* Network Card: [NGFF595A-L](https://lian-mueller.com/qualcomm-atheros-communications-distributor/ngff595a-l.html) Qualcomm Atheros QCA6320-based 802.11ad WiGig Baseband M.2 Module (Sparrrow) respectively.
+* Network Card: [NGFF595A-L](https://lian-mueller.com/qualcomm-atheros-communications-distributor/ngff595a-l.html) Qualcomm Atheros QCA6320-based 802.11ad WiGig Baseband M.2 Module (Sparrrow).
   + Qualcomm Atheros QCA6335 based [NGFF695A-L](https://lian-mueller.com/qualcomm-atheros-communications-distributor/ngff695a-l.html) (Sparrow Plus) in [M3](http://m3.ucsd.edu/sdr/) should also work but we never tried.
 * Phased Array: Qualcomm Atheros QCA6310-based 802.11ad WiGig RF Antenna Module (32-antenna URA, the same one as the single antenna array module used in [M3](http://m3.ucsd.edu/sdr/) and [MultiLoc](https://dl.acm.org/doi/pdf/10.1145/3498361.3538920)).
   + Acer TravelMate P658-m orginally comes with [NGFF595A-L-Ant](https://lian-mueller.com/qualcomm-atheros-communications-distributor/ngff595a-l-ant.html) (32-antenna irregular array, the same one used in [ACO](https://dl.acm.org/doi/abs/10.1145/3241539.3241576)). We replaced the phased array with a 32-ant URA for a better evaulation. 
