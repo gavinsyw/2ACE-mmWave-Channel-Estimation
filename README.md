@@ -1,5 +1,5 @@
 # MobiHoc23 2ACE Source Code
-Source Code of "2ACE: Spectral Profile-driven Multi-resolutional Compressive Sensing for mmWave Channel Estimation" (MobiHoc ’23)
+Source Code of "2ACE: Spectral Profile-driven Multi-resolutional Compressive Sensing for mmWave Channel Estimation" (ACM MobiHoc ’23)
 
 #### PI: [Dr. Lili Qiu](https://www.cs.utexas.edu/~lili/) @ The University of Texas at Austin & Microsoft Research Asia Shanghai <br>
 #### Developer: [Yiwen Song](https://gavinsyw.github.io/) @ Carnegie Mellon University, [Changhan Ge]() @ The University of Texas at Austin, Dr. Yin Zhang
