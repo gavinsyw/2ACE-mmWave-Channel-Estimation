@@ -1,3 +1,11 @@
+%###########################################################################
+%Project 2ACE
+%PI: Prof. Lili Qiu @ UT Austin/MSRA
+%Participants: Yiwen Song @ CMU, Changhan Ge @ UT Austin, Yin Zhang
+%Copyright @ The University of Texas at Austin, 2023
+%Partially inherited from Yi Zhang & Kartik Patel @ UT Austin
+%###########################################################################
+
 function [H_amp,H_angle] = channel_recovery_ADMM_v2_simulation_A2only(tx_ant_num, rx_ant_num, cb_amp, cb_angle, rss_final, seed_id)
     %% FUNCTION DESCRIPTION
     % Test the ADMM method and Bayes experiment design with real RSS trace
