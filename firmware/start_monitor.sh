@@ -1,3 +1,11 @@
+############################################################################
+#Project 2ACE
+#PI: Prof. Lili Qiu @ UT Austin/MSRA
+#Participants: Yiwen Song @ CMU, Changhan Ge @ UT Austin, Yin Zhang
+#Copyright @ The University of Texas at Austin, 2023
+#Partially inherited from Teng Ghufran Baig @ UT Austin
+############################################################################
+
 sudo modprobe -vvv wil6210
 sudo rfkill unblock all
 sudo ifconfig wlp3s0 down

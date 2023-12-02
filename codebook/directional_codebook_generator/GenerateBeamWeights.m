@@ -1,10 +1,10 @@
-%###########################################################################
+%#############################################################################
 %Project 2ACE
 %PI: Prof. Lili Qiu @ UT Austin/MSRA
 %Participants: Yiwen Song @ CMU, Changhan Ge @ UT Austin, Yin Zhang
 %Copyright @ The University of Texas at Austin, 2023
-%Partially inherited from Kun Qian@UVa & Xinyu Zhang @ UCSD
-%###########################################################################
+%Partially inherited from Kun Qian@University of Virginia & Xinyu Zhang @ UCSD
+%#############################################################################
 
 clear;clc;
 close all;
