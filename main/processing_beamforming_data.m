@@ -19,34 +19,8 @@ for i = 1:8
         elseif j == 3
             M_cur = Mt(i);
             data(i,j) = beam_sweeping(rss_sweeping_thetaNphi,M_cur, 36,10000);
-        elseif j == 4
-            temp = sort(max(squeeze(rss_bf(:, i,j-2,51:52)),[],2),'descend');
-            data(i,j) = max(temp,[],'all');
-            %data(i,j) = mean(temp(1:5));
-        elseif j == 5
-            temp = sort(max(squeeze(rss_bf(:, i,j-2,53:54)),[],2),'descend');
-            data(i,j) = max(temp,[],'all');
-            %data(i,j) = mean(temp(1:5));
-        elseif j == 6
-            temp = sort(max(squeeze(rss_bf(:, i,j-2,55:56)),[],2),'descend');
-            data(i,j) = max(temp,[],'all');
-            %data(i,j) = mean(temp(1:5));
-        elseif j == 7
-            temp = sort(max(squeeze(rss_bf(:, i,j-2,57:58)),[],2),'descend');
-            data(i,j) = max(temp,[],'all');
-            %data(i,j) = mean(temp(1:5));
-        elseif j == 8
-            temp = sort(max(squeeze(rss_bf(:, i,j-2,59:60)),[],2),'descend');
-            data(i,j) = max(temp,[],'all'); 
-            %data(i,j) =  mean(temp(1:5));
-        elseif j == 9
-            temp = sort(max(squeeze(rss_bf(:, i,j-2,61:62)),[],2),'descend');
-            data(i,j) = max(temp,[],'all');
-            %data(i,j) = mean(temp(1:5));
-        elseif j == 10
-            temp = sort(max(squeeze(rss_bf(:, i,j-2,63:64)),[],2),'descend');
-            data(i,j) = max(temp,[],'all');
-            %data(i,j) = mean(temp(1:5));
+        elseif j >= 4
+            data(i,j) = max(sort(max(squeeze(rss_bf(:, i,j-2,51 + (j-4)*2:52 + (j-4)*2)),[],2),'descend'),[],'all');
         end
     end
 end
