@@ -1,7 +1,13 @@
+%###########################################################################
+%Project 2ACE
+%PI: Prof. Lili Qiu @ UT Austin/MSRA
+%Participants: Yiwen Song @ CMU, Changhan Ge @ UT Austin, Yin Zhang
+%Copyright @ The University of Texas at Austin, 2023
+%Partially inherited from Teng Wei/Song Wang/Jingqi Huang/Xinyu Zhang @ UCSD
+%###########################################################################
+
 clear
 clc
-
-%load('../codebook_calibration/hardware_phaseoffset.mat');
 
 %% Rx codebook
 fid = fopen('./codebook_brd/directional_16ant/codeboook_16ant_directional.txt');
