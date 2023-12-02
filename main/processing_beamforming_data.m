@@ -1,7 +1,7 @@
 clear
 clc
 
-load('../result/LoS_2023-08-18.mat');
+load('../result/your_data.mat');
 
 tx_ant_num = 16;
 rx_ant_num = 16;
