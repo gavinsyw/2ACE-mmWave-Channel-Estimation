@@ -1,3 +1,11 @@
+%###########################################################################
+%Project 2ACE
+%PI: Prof. Lili Qiu @ UT Austin/MSRA
+%Participants: Yiwen Song @ CMU, Changhan Ge @ UT Austin, Yin Zhang
+%Copyright @ The University of Texas at Austin, 2023
+%Partially inherited from Teng Wei/Song Wang/Jingqi Huang/Xinyu Zhang @ UCSD
+%###########################################################################
+
 function [final_group, calibrated_phase_shift, calibration_factor, calibration_factor_digit] = group_ant_kernel(phaseshift, TX, group_size, phase_bit, azimuth_aoa, elevation_aoa, freq)
 
 % greedy heuristic for antenna grouping.

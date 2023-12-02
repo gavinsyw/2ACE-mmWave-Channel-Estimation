@@ -1,8 +1,16 @@
+%###########################################################################
+%Project 2ACE
+%PI: Prof. Lili Qiu @ UT Austin/MSRA
+%Participants: Yiwen Song @ CMU, Changhan Ge @ UT Austin, Yin Zhang
+%Copyright @ The University of Texas at Austin, 2023
+%Partially inherited from Kun Qian@UVa & Xinyu Zhang @ UCSD
+%###########################################################################
+
 clear;clc;
 close all;
 
 load('steering_vector_calib.mat');
-antenna_phase_shifts = ones(32,1);%AntennaPhaseShifts(steering_phase, azim_range, elev_range, antenna_map, beam_map);
+antenna_phase_shifts = AntennaPhaseShifts(steering_phase, azim_range, elev_range, antenna_map, beam_map);
 
 azim_range = [0:36:180];
 elev_range = [0:36:180];

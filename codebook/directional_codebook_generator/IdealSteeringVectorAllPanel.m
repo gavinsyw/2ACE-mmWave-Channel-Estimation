@@ -1,3 +1,11 @@
+%###########################################################################
+%Project 2ACE
+%PI: Prof. Lili Qiu @ UT Austin/MSRA
+%Participants: Yiwen Song @ CMU, Changhan Ge @ UT Austin, Yin Zhang
+%Copyright @ The University of Texas at Austin, 2023
+%Partially inherited from Kun Qian@UVa & Xinyu Zhang @ UCSD
+%###########################################################################
+
 function ideal_steering_vector = IdealSteeringVectorAllPanel(azim_range, elev_range, antenna_map, beam_map, panel_map, module_map)
     ideal_steering_vector_per_panel = IdealSteeringVectorPerPanel(azim_range, elev_range, antenna_map, beam_map);
     
