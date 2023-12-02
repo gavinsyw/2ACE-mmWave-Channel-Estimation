@@ -30,7 +30,7 @@ if __name__ == '__main__':
 	port = 10002
 
 	num_ant = str(16)
-	active_ant = list(np.array([1,2,3,4,5,6,7,8,17,18,19,20,21,22,23,24])-1)
+	active_ant = [0,1,2,3,4,5,6,7,16,17,18,19,20,21,22,23]
 	
 	env = "indoor"
 
