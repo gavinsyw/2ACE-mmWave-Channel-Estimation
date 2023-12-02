@@ -101,7 +101,7 @@ Hardware modifications in this design will void your devices' warranty. The code
 * Why suddenly nothing works and the OS become slow and less responsive?
   + Reboot your machine. If problems still exist, unfortunately your OS environment might be corrupted and you may need to reinstall the OS.
   + There is a possibility that the baseband chipset or phased array burn out. Good luck.
-* The codes may poorly structured with limited comments. Please accept the apology from the authors in advance.
+* The codes may exhibit a poor structure with limited comments. Please accept the apology from the authors in advance.
 
 # Cite 2ACE
 #### Bibtex
