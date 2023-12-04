@@ -60,6 +60,7 @@ Hardware modifications in this design will void your devices' warranty. The code
   sudo cp ./firmware/ap_mmwave.conf /etc/wpa_supplicant/
   ```
   Then reboot your AP. It should then work at channel 2 of 802.11ad (60.48GHz). This code works for linux kernel version 4.15.0-142.
+  If the rebooting does not make your laptop an AP, please ask ChatGPT or Stackoverflow.
 * Put the ```wil6210_brd_mod``` under the ```./codebook/``` folder, put the patched ```wil6210.fw``` under the ```./firmware/patched_fw/``` folder and put the patched ```wil6210_server-2.2.0``` under the ```./firmware/``` folder. Then run the following commands.
   ```
   chmod a+x ./codebook/wil6210_brd_mod
