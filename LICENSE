@@ -12,21 +12,16 @@ following conditions:
 
 If you use this code or any (modified) part of it in any publication, cite our publication:
 @inproceedings{10.1145/3565287.3610252,
-abbr={MobiHoc 23},
-bibtex_show={true},
 author = {Song, Yiwen and Ge, Changhan and Qiu, Lili and Zhang, Yin},
 title = {2ACE: Spectral Profile-driven Multi-resolutional Compressive Sensing for mmWave Channel Estimation},
 year = {2023},
-isbn = {9781450399265},
+isbn = {9781450391658},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
 url = {https://doi.org/10.1145/3565287.3610252},
 html={https://dl.acm.org/doi/10.1145/3565287.3610252},
 doi = {10.1145/3565287.3610252},
-abstract = {Channel estimation is critical to millimeter-wave capability. Unlike sub-6 GHz WiFi, commercial-off-the-shelf 60 GHz WiFi devices adopt single RF-chain and can only report the combined received signal strength (RSS) instead of the antenna-wise channel state information (CSI). Therefore, recovering the CSI using a limited number of RSS measurements is important but faces the following challenges: (i) solving a non-convex objective is hard and computationally heavy, (ii) the estimation error is high with insufficient RSS measurements, and (iii) channel fluctuates dynamically. To jointly tackle them, we propose 2ACE, an Accelerated and Accurate Channel Estimation approach using spectral profile-driven multiresolutional compressive sensing. Our thorough experiments show that 2ACE yields 2-8 dB reduction in CSI estimation error, 2-5 dB improvement in beamforming performance, and 5-10 degrees reduction in angle-of-departure estimation error over the existing schemes.},
 booktitle = {Proceedings of the Twenty-Fourth International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (ACM MobiHoc '23)},
-pages = {},
-numpages = {},
 location = {Washington DC, USA},
 series = {MobiHoc '23},
 }
