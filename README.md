@@ -41,7 +41,7 @@ Hardware modifications in this design will void your devices' warranty. The code
 * Do not connect your STA and AP via 60GHz WiGig link. During the excution of code, the WiGig interface will be hijacked and no TCP link would be able to setup between STA and AP. 
 
 ### Detailed steps
-#### Make sure you already read throught the warning/disclaimer, and all the detailed steps before your experiment.
+#### Make sure you already read throught the warning/disclaimer, detailed steps, and Q&A before your experiment.
 #### Preliminary (Optional but recommended)
 * Hardware phase offset calibration: If you are not using the same phased array as ours, you will have to calibrate the hardware phase offset on each antenna following the approach in [M3](http://m3.ucsd.edu/sdr/) or [PLOMP/PLGAMP](https://dl.acm.org/doi/abs/10.1145/3323679.3326532). After the calibration, replace the ```./codebook/hardware_phaseoffset.mat``` file with your own measurement.
 * RSSI to RSS mapping: Commercial WiGig card normaly only report an integer received signal strength indicator (RSSI) instead of absolute received signal strength (RSS) in dBm unit. However, 2ACE and all baselines will need RSS to recover CSI matrix. If you are not using the same baseband chipset NGFF595A-L as ours, you will have to calibrate the function for mapping RSSI to RSS.
