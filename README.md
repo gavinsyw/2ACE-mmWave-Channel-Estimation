@@ -137,7 +137,7 @@ This work is supported in part by NSF Grant [CNS-2008824](https://www.nsf.gov/aw
 * Song Wang, Jingqi Huang, Xinyu Zhang, Hyoil Kim, and Sujit Dey. 2020. X-Array: approximating omnidirectional millimeter-wave coverage using an array of phased arrays. In Proceedings of the 26th Annual International Conference on Mobile Computing and Networking (ACM MobiCom '20). Association for Computing Machinery, New York, NY, USA, Article 5, 1–14. https://doi.org/10.1145/3372224.3380882
 
 * Kun QIAN, Xinyu ZHANG, Zheng YANG, Yunhao LIU, AoD-based localization with cots millimeter-wave devices,  SCIENTIA SINICA Informationis, Volume 51, Issue 1, 2021, Pages 122-, ISSN 1674-7267, https://doi.org/10.1360/SSI-2019-0135.
-(http://www.sciengine.com/doi/10.1360/SSI-2019-0135)
+(http://www.sciengine.com/doi/10.1360/SSI-2019-0135). THIS PAPER IS ONLY AVAILABLE IN SIMPLIFIED CHINESE.
 
 We greatly appreciate the sources above but we are not responsible for any potential problem caused by them.
 
