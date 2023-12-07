@@ -85,7 +85,7 @@ Hardware modifications in this design will void your devices' warranty. The code
 * Why does the RSS reading suddenly stop? What should I do in this situation?
   + RSS dump failure has multiple root causes. Error message "This dump bloody failed!!!!! Try bloody again!!!!!" is a very common one. A simple reason might be that the network interface kernel is not ready while the RSS reading command is triggered.
   + Error message "Serious Dumping Error! Restart kernel and firmware controller!" means you are in big trouble.
-    - If ```SIOCSIFFLAGS: Timer expired``` pops up at the same time, the error is highly caused by a corrupted codebook file ```.brd``` on either AP or STA side. 
+    - If ```SIOCSIFFLAGS: Timer expired``` pops up at the same time, the error is highly likely caused by a corrupted codebook file ```.brd``` on either AP or STA side. 
     - If ```NOT_SUPPORTED_EVENTID detected!!``` or ```event 0x1900 no response.``` are displayed, the error is highly like caused by a wrong version of firmware. Our testbed code only works with firmware version 6.2.0.40 with a custom patch.
     - In some situation, like overheating, the NIC will shut off the WiGig interface automatically for self-protection. 
   + Error message "Connection Failed ! Restart the dump server and press Enter to continue..." means the controller server ```wil6210_server-2.2.0``` breaks unexpectedly or you forget to start it. Resart the controller server will help.
