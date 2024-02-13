@@ -54,10 +54,11 @@ Hardware modifications in this design will void your devices' warranty. The code
   git clone https://github.com/ChanghanGe/MobiHoc23_2ACE_Artifact.git
   cd MobiHoc23_2ACE_Artifact
   ```
-* You have to figure out the name of your WiGig interface first. You can check all your network interface by hit ```ifconfig -a```. In our experiment, the name of the WiGig interface is ```wlp3s0```. It varies by machine. If your WiGig interface is not ```wlp3s0```, you have to change it in ```./firmware/ap_mmwave.conf```,  ```./main/main.py``` and ```./firmware/load_csi_firmware.sh```
+* You have to figure out the name of your WiGig interface first. You can check all your network interface by hit ```ifconfig -a```. In our experiment, the name of the WiGig interface is ```wlp3s0```. It varies by machine. If your WiGig interface is NOT ```wlp3s0```, you have to change it in ```./firmware/interfaces_mmwave_AP```,  ```./main/main.py``` and ```./firmware/load_csi_firmware.sh```
 * One of your machine have to be on AP mode. Normally wireless interfaces of a linux machine are set as STA mode by default. To make it as an AP, run
   ```
   sudo cp ./firmware/ap_mmwave.conf /etc/wpa_supplicant/
+  sudo cp ./firmware/interfaces_mmwave_AP /etc/network/interfaces
   ```
   Then reboot your AP. It should then work at channel 2 of 802.11ad (60.48GHz). This code works for linux kernel version 4.15.0-142.
   If the rebooting does not make your laptop an AP, please ask ChatGPT or Stackoverflow.
