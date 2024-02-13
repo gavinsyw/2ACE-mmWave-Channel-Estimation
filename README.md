@@ -51,8 +51,8 @@ Hardware modifications in this design will void your devices' warranty. The code
 * Install all the dependencies on your AP and STA machine.
 * Clone this repo to your STA machine by
   ```
-  git clone https://github.com/ChanghanGe/MobiHoc23_2ACE_Artifact.git
-  cd MobiHoc23_2ACE_Artifact
+  git clone git@github.com:gavinsyw/2ACE-mmWave-Channel-Estimation.git
+  cd 2ACE-mmWave-Channel-Estimation
   ```
 * You have to figure out the name of your WiGig interface first. You can check all your network interface by hit ```ifconfig -a```. In our experiment, the name of the WiGig interface is ```wlp3s0```. It varies by machine. If your WiGig interface is NOT ```wlp3s0```, you have to change it in ```./firmware/interfaces_mmwave_AP```,  ```./main/main.py``` and ```./firmware/load_csi_firmware.sh```
 * One of your machine have to be on AP mode. Normally wireless interfaces of a linux machine are set as STA mode by default. To make it as an AP, run
