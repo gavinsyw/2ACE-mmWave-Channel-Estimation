@@ -1,0 +1,13 @@
+############################################################################
+#Project 2ACE
+#PI: Prof. Lili Qiu @ UT Austin/MSRA
+#Participants: Yiwen Song @ CMU, Changhan Ge @ UT Austin, Yin Zhang
+#Copyright @ The University of Texas at Austin, 2023
+#Partially inherited from Teng Ghufran Baig @ UT Austin
+############################################################################
+
+auto wlp3s0
+iface wlp3s0 inet static
+wpa-conf /etc/wpa_supplicant/ap_mmwave.conf
+address 192.168.30.1
+netmask 255.255.255.0
