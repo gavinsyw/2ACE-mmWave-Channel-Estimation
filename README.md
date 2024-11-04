@@ -81,7 +81,7 @@ Hardware modifications in this design will void your devices' warranty. The code
 
 # Q&A
 * Why does it take too long to run the code? Why does solving the CSI matrix seem to take forever?
-  + 2ACE solve the CSI matrix very fast, normally within a second for 16x16 CSI matrices. However, the baseline approach PhaseLift normally get stuck at somewhere during convex optimization. Meanwhile, PLOMP and PLGAMP also take long since their first step is PhaseLift. The larger the CSI matrix, the longer the algorithms take to solve it. PhaseLift/PLGAMP/PLOMP will take hours to solve a 32x32 CSI matrix with 4096 training probes.
+  + 2ACE solves the CSI matrix very fast, normally within a second for 16x16 CSI matrices. However, the baseline approach PhaseLift normally get stuck at somewhere during convex optimization. Meanwhile, PLOMP and PLGAMP also take long since their first step is PhaseLift. The larger the CSI matrix, the longer the algorithms take to solve it. PhaseLift/PLGAMP/PLOMP will take hours to solve a 32x32 CSI matrix with 4096 training probes.
   + For a fast run, you may disable the code related to PLOMP/PLGAMP/PhaseLift in simulation main.m, and comment the corresponding blocks in ```main.py``` for testbed.
 * Why does the RSS reading suddenly stop? What should I do in this situation?
   + RSS dump failure has multiple root causes. Error message "This dump bloody failed!!!!! Try bloody again!!!!!" is a very common one. A simple reason might be that the network interface kernel is not ready while the RSS reading command is triggered.
